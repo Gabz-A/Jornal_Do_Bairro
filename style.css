@@ -1,0 +1,103 @@
+header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.titulo{
+    margin: 15px;
+    text-decoration: solid black 15px;
+}
+
+#nome{
+    margin-top: 0px;
+    font-size: 60px;
+}
+
+#frase{
+    margin-bottom: 8px;
+    font-size: 40px;
+    text-decoration: underline white 5px;
+}
+
+#menu{
+    font-size: 25px;
+    text-align: start;
+}
+
+.abas{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.abas:link{
+    color:white;
+}
+
+.abas:visited{
+    color: white;
+}
+
+.abas:hover{
+    color: darkorange;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+}
+article{
+    
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    flex-direction: column;
+    
+}
+
+.noticia{
+    color: black;
+    margin-top: 4px;
+} 
+
+.fonte{
+    margin-top: 4px;
+    font-size: 19px;
+}
+
+iframe{
+    width: 300px;
+    height: 600px;
+}
+
+.reportagem{
+    font-size: 25px;
+}
+
+.rodape{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+footer{
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+#nome {
+    animation: growth 3s;
+    animation-fill-mode: backwards;
+    font-size: 4rem;
+  }
+  
+  @keyframes growth {
+    0% {
+      font-size: 0;
+    }
+    100% {
+      font-size: 4rem;
+    }
+  }
